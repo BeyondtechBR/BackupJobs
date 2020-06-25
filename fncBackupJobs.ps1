@@ -17,7 +17,7 @@ function backup_jobs{
            [string]$folder
           )
 
-  # Instância a s
+  # Instância a ser lida
   $ServerNameList = $instancia
    
   $Date = Get-Date -Format "yyyyMMdd"
